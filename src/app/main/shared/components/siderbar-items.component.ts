@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { SidebarItems } from '../../types';
 
 @Component({
-  selector: 'siderbar-items',
+  selector: 'siderbar-items-component',
   template: `
     <div
       class="rounded-full h-14 w-14 p-4 flex items-center justify-center hover:opacity-10 hover:bg-blue-300 cursor-pointer transition"
