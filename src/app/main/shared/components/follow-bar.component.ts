@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
         <div class="flex flex-col gap-6 mt-4">
           <div class="flex flex-row gap-4">
             <!-- Avatar -->
+            <avatar-component />
             <div class="flex flex-col">
               <p class="text-white font-semibold text-sm">Full name</p>
               <p class="text-netrl-400 text-sm">@Username</p>
