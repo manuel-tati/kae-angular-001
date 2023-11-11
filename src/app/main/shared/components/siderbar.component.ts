@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'siderbar',
   template: `
     <div class="col-span-1 h-full pr-4 md:pr-6">
-      <div class="flex flex-col-items-end">
+      <div class="flex flex-col items-end justify-center">
         <div class="space-y-2 lg-w-[230px]">
           <siderbar-items />
         </div>
