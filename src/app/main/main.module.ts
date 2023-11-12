@@ -10,6 +10,8 @@ import { SiderbarComponent } from './shared/components/siderbar.component';
 import { AvatarComponent } from './shared/components/avatar.component';
 import { LoginModalComponent } from './shared/auth/login-modal/login-modal.component';
 import { RegisterModalComponent } from './shared/auth/register-modal/register-modal.component';
+import { ModalComponent } from './shared/components/modal.component';
+import { ButtonComponent } from './shared/components/button.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { RegisterModalComponent } from './shared/auth/register-modal/register-mo
     AvatarComponent,
     LoginModalComponent,
     RegisterModalComponent,
+    ModalComponent,
+    ButtonComponent,
   ],
   imports: [CommonModule, MainRoutingModule],
 })
