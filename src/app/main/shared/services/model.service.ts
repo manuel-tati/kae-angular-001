@@ -1,0 +1,14 @@
+import { Injectable, signal } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root',
+})
+export class ModelService {
+  constructor() {}
+
+  isOpen = signal<boolean>(false);
+  isCose = signal<boolean>(false);
+
+  isRegisterModelOpen = signal<boolean>(false);
+  isLoginModelOpen = signal<boolean>(false);
+}

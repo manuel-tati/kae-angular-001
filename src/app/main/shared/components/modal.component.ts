@@ -19,7 +19,7 @@ import {
         <div
           class="h-full lg:h-auto border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-black outline-none focus:outline-none"
         >
-          <h3 class="text-3xl font-semibold text-white">Header Title</h3>
+          <h3 class="text-3xl font-semibold text-white">{{ title }}</h3>
           <button
             class="p-1 ml-auto border-0 text-white hover:opacity-70 transition"
           >
@@ -47,7 +47,7 @@ import {
   styles: [],
 })
 export class ModalComponent {
-  @Input() isOpen: boolean = false;
+  @Input() isOpen: boolean = true;
   @Input() title: string = '';
   @Input() footer?: TemplateRef<any>;
   @Input() actionLabel: string = '';
