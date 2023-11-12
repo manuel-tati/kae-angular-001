@@ -8,6 +8,8 @@ import { HeaderComponent } from './shared/components/header.component';
 import { SiderbarItemsComponent } from './shared/components/siderbar-items.component';
 import { SiderbarComponent } from './shared/components/siderbar.component';
 import { AvatarComponent } from './shared/components/avatar.component';
+import { LoginModalComponent } from './shared/auth/login-modal/login-modal.component';
+import { RegisterModalComponent } from './shared/auth/register-modal/register-modal.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { AvatarComponent } from './shared/components/avatar.component';
     HeaderComponent,
     FollowBarComponent,
     AvatarComponent,
+    LoginModalComponent,
+    RegisterModalComponent,
   ],
   imports: [CommonModule, MainRoutingModule],
 })
